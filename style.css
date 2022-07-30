@@ -1,0 +1,132 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    size: 65.5%;
+}
+
+body{
+    @media screen and (min-width:700px) and (max-width:1024px){
+
+    }
+    width: 90%;
+    height: 90%;
+}
+.container-1{
+    background-color: #6E85B2;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    
+}
+.container-3{
+    background-color: #6E85B2;
+    display: flex;
+    color: white;
+}
+.design{
+    margin-left: 150px;
+    width: 450px;
+}
+.prompt{
+    margin-left: 150px;
+}
+
+.a{
+    margin-left: 70px;
+}
+.b{
+    margin-left: 600px;
+}
+.c{
+    margin-left: 40px;
+}
+.d{
+    margin-left: 35px;
+}
+.e{
+    margin-left: 3pc;
+}
+.jj{
+    position: relative;
+    text-align: center;  
+}
+.container-4{
+    display: flex;
+    position: relative;
+    padding-bottom: 50px;
+    
+    
+}
+h3{
+    color: #6E85B2;
+    font-size: xx-large;
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+.ui{
+    background-color: darkslategrey;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    height: 180px;
+    width: 200px;
+    margin-left: 150px;
+    padding: 5px 5px 5px 5px; 
+    
+    
+}
+.web{
+    background-color: darkslategrey;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    height: 180px;
+    width: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 5px 5px 5px 5px;
+
+}
+.ins{
+    background-color: darkslategrey;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    height: 180px;
+    width: 200px;
+    padding-right: -200px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.container-2 .pic{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    padding-left: 625px;
+    padding-top: 50px;
+}
+.koko{
+    background-color: #6E85B2;
+    color: white;
+    height: 100%;
+}
+.tt{
+    margin-left: 625px;
+    height: 100px;
+    padding-bottom: 20px;
+
+}
+.lnkd{
+    padding-right: 15px;
+}
+.fb{
+    padding-right: 15px;
+}
+.twt{
+    padding-right: 15px;
+}
+.text{
+    padding-top: 30px;
+    padding-left: -140px;
+}
