@@ -1,12 +1,7 @@
-html{
-    font-family: Arial, Helvetica, sans-serif;
+body{
     box-sizing: border-box;
 }
 
-body{
-    @media screen and (min-width:700px) and (max-width:1024px)
-
-}
 .container-1{
     width: 100%;
     background-color: #6E85B2;
@@ -14,8 +9,8 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    
 }
+
 .T{
     padding-left: 30px;
 }
@@ -25,6 +20,7 @@ body{
 }
 .container-2{
     text-align: center;
+    padding-top: 40px;
 }
 
 .container-2 .pic{
@@ -37,34 +33,22 @@ body{
     background-color: #6E85B2;
     display: flex;
     color: white;
+    justify-content: space-between;
 }
 .design{
-    margin-left: 150px;
+    margin-left: 120px;
     width: 450px;
 }
 .prompt{
-    margin-left: 150px;
-}
-
-
-/* .a{
-    margin-right: 2%;
-}
-.b{
-    margin-right: 2%;
-}
-.c{
-    margin-left: 2%;
+    padding-right: 40px;
+    padding-left: 30px;
 
 }
-.d{
-    margin-right: 20%;
-} */
 
 h3{
     color: #6E85B2;
     font-size: xx-large;
-    margin-left: 150px;
+    margin-left: 115px;
     margin-bottom: 80px;
 }
 .ui{
@@ -72,23 +56,18 @@ h3{
     border-radius: 8px;
     text-align: center;
     color: white;
-    height: 180px;
-    width: 200px;
-    margin-left: 150px;
-    padding: 5px 5px 5px 5px; 
-    
-    
+    height: 20%;
+    width: 15%;
+    padding: 5px;
 }
 .web{
     background-color: darkslategrey;
     border-radius: 8px;
     text-align: center;
     color: white;
-    height: 180px;
-    width: 200px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 5px 5px 5px 5px;
+    height: 20%;
+    width: 15%;
+    padding: 5px;
 
 }
 .ins{
@@ -96,19 +75,19 @@ h3{
     border-radius: 8px;
     text-align: center;
     color: white;
-    height: 180px;
-    width: 200px;
-    padding-left: 200px;
-    padding: 5px 5px 5px 5px;
+    height: 10%;
+    width: 15%;
+    padding: 5px;
 
 }
 
 .container-4{
     display: flex;
-    position: relative;
-    padding-bottom: 50px;
-   
-    
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
+    /* height: 100%; */
+    background-color: white;
 }
 
 .koko{
@@ -116,7 +95,7 @@ h3{
     color: white;
     height: 100%;
 }
-.tt{
+.social{
     text-align: center;
     height: 100px;
     padding-bottom: 20px;
