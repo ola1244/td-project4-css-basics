@@ -1,7 +1,10 @@
 body{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 1024px;
+    margin: 0% auto;
 }
+
 .container-1{
     width: 100%;
     background-color: #6E85B2;
@@ -11,12 +14,16 @@ body{
     padding: 10px;
 }
 
-.T{
-    padding-left: 30px;
+.logo{
+    margin-left: 50px;
+    cursor: pointer;
 }
- .S{
-    padding-right: 20px;
-     
+ .nav{
+    width: 40%;
+    padding-right: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
 }
 .container-2{
     text-align: center;
@@ -36,19 +43,21 @@ body{
     justify-content: space-between;
 }
 .design{
-    margin-left: 120px;
+    margin-left: 70px;
     width: 450px;
 }
 .prompt{
     padding-right: 40px;
     padding-left: 30px;
-
+}
+.prompt a{
+    text-decoration: none;
 }
 
 h3{
     color: #6E85B2;
     font-size: xx-large;
-    margin-left: 115px;
+    margin-left: 70px;
     margin-bottom: 80px;
 }
 .ui{
@@ -107,6 +116,9 @@ h3{
     padding-right: 15px;
     height:15px;
     width:15px;
+}
+.koko a{
+    text-decoration: none;
 }
 .fb{
     padding-right: 15px;
